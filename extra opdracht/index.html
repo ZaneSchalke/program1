@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekenmachine</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js" ></script>
+</head>
+<body>
+    <div class="calculator">
+        <h3>Rekenmachine</h3><br>
+
+        <label for="getal1">getal1:</label>
+
+        <input type="text" id="getal1" placeholder="Vul eerte nummer in"><br>
+
+        <label for="getal2">getal2:</label>
+
+        <input type="text" id="getal2" placeholder="Vul tweede nummer in">
+        
+        <div>
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate('*')">x</button>
+            <button onclick="calculate('/')">/</button>
+        </div>
+        <label for="antwoord">antwoord:</label>
+        <input type="text" id="antwoord" readonly>
+    </div>
+</body>
+</html>

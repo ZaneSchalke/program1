@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begroting</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <h1>Begroting van 330 miljard euro over ministeries</h1>
+    <div class="container">
+        <form id="budgetForm">
+            <div class="ministry-input">
+                <label for="ministry1">Ministerie van Algemene Zaken:</label>
+                <input type="number" id="ministry1" name="ministry1" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry2">Ministerie van Buitenlandse Zaken:</label>
+                <input type="number" id="ministry2" name="ministry2" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry3">Ministerie van Defensie:</label>
+                <input type="number" id="ministry3" name="ministry3" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry4">Ministerie van Economische Zaken:</label>
+                <input type="number" id="ministry4" name="ministry4" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry5">Ministerie van Financiën:</label>
+                <input type="number" id="ministry5" name="ministry5" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry6">Ministerie van Binnenlandse Zaken:</label>
+                <input type="number" id="ministry6" name="ministry6" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry7">Ministerie van Justitie en Veiligheid:</label>
+                <input type="number" id="ministry7" name="ministry7" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry8">Ministerie van Onderwijs, Cultuur en Wetenschap:</label>
+                <input type="number" id="ministry8" name="ministry8" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry9">Ministerie van Sociale Zaken en Werkgelegenheid:</label>
+                <input type="number" id="ministry9" name="ministry9" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry10">Ministerie van Volksgezondheid, Welzijn en Sport:</label>
+                <input type="number" id="ministry10" name="ministry10" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry11">Ministerie van Infrastructuur en Waterstaat:</label>
+                <input type="number" id="ministry11" name="ministry11" min="0" step="1">
+            </div>
+            <div class="ministry-input">
+                <label for="ministry12">Ministerie van Landbouw, Natuur en Voedselkwaliteit:</label>
+                <input type="number" id="ministry12" name="ministry12" min="0" step="1">
+                
+            </div>
+            <button type="button" onclick="calculateBudget()">Verzend</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>

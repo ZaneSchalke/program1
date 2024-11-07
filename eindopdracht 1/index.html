@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziekte Identificatie App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <h1>De Ziekte Identificatie App</h1>
+    
+    <label for="name">Wat is uw naam:</label>
+    <input type="text" id="name" placeholder="Uw naam" required>
+    
+    <label for="leeftijd">Wat is uw leeftijd:</label>
+    <input type="number" id="leeftijd" placeholder="Leeftijd" required>
+
+    <label for="sym1">Symptoom 1:</label>
+    <select id="sym1" required>
+        <option value="">Selecteer een symptoom</option>
+        <option value="buikpijn">Buikpijn</option>
+        <option value="hoofdpijn">Hoofdpijn</option>
+        <option value="koorts">Koorts</option>
+        <option value="misselijk">Misselijk</option>
+        <option value="snotneus">Snotneus</option>
+    </select>
+
+    <label for="sym2">Symptoom 2:</label>
+    <select id="sym2" required>
+        <option value="">Selecteer een symptoom</option>
+        <option value="buikpijn">Buikpijn</option>
+        <option value="hoofdpijn">Hoofdpijn</option>
+        <option value="koorts">Koorts</option>
+        <option value="misselijk">Misselijk</option>
+        <option value="snotneus">Snotneus</option>
+    </select>
+
+    <label for="sym3">Symptoom 3:</label>
+    <select id="sym3" required>
+        <option value="">Selecteer een symptoom</option>
+        <option value="buikpijn">Buikpijn</option>
+        <option value="hoofdpijn">Hoofdpijn</option>
+        <option value="koorts">Koorts</option>
+        <option value="misselijk">Misselijk</option>
+        <option value="snotneus">Snotneus</option>
+    </select>
+
+    <button onclick="ziek()">Test</button>
+
+    <div id="result" style="color: rgb(255, 255, 255); margin-top: 20px;"></div>
+    <div id="symptomsDisplay" style="margin-top: 20px;"></div>
+</body>
+</html>
